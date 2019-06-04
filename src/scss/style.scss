@@ -1,22 +1,7 @@
-html{
-    box-sizing: border-box;
-    font-size: 100%;
-}
-
-*, *:before, *:after{
-    box-sizing: inherit;
-}
-
-body{
-    padding: 20px;
-    background-color: #cecece;
-    color: black;
-    line-height: 1.3;
-}
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import '../../node_modules/materialize-css/sass/materialize.scss';
 
 main{
-    background-color: #fff;
-    padding: 20px;
     h1{
         color: salmon;
         text-transform: uppercase;
